@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" src="styles.css">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class='header'><h1 class='title'>Rock, Paper, Scissors</h1></div>
+        <div class='game'>
+            <div class='choice'>
+                <p class='player-choice'>Player Choice</p>
+                <img id='playerIMG' src=''>
+            </div>
+            <div class='choice'>
+                <p class='computer-choice'>Computer Choice</p>
+                <img id='computerIMG' src=''></div>
+            </div>        
+        <div class='buttons'>
+            <button id='rock'>Rock</button>
+            <button id='paper'>Paper</button>
+            <button id='scissors'>Scissors</button>
+        </div>
+        <div class='result'><h2 class='winner'>You Win!</h2></div>
+        <div class='scores'>
+            <ul>
+                <li class="playerWins">Player Wins: <span id='playerScore'>0</span></li>
+                <li class="draws">Draws: <span id='drawCount'>0</span></li>
+                <li class="computerWins">Computer Wins: <span id='computerScore'>0</span></li>
+
+            </ul>
+        </div>
+    </body>
     <script src="script.js"></script> 
-</head>
-<body>
-    
-</body>
 </html>
